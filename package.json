@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "material3",
+  "type": "module",
+  "packageManager": "yarn@4.5.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    ":": "yarn workspace"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.10",
+    "turbo": "^2.3.1"
+  }
+}

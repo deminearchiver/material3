@@ -1,0 +1,39 @@
+{
+  "name": "@material3/react",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deminearchiver/material3.git",
+    "directory": "packages/react"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
+  "type": "module",
+  "typesVersions": {},
+  "packageManager": "yarn@4.5.2",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "publish": "yarn npm publish"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.12",
+    "clsx": "^2.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@material3/config": "workspace:^",
+    "@types/node": "^22.9.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}

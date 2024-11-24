@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "@material3/config",
+  "type": "module",
+  "exports": {
+    "./tsconfig/*": "./tsconfig/*.json"
+  },
+  "packageManager": "yarn@4.5.2"
+}
